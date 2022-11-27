@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        border-radius: 12px;
+      }
+      body {
+        background-image: linear-gradient(#16384c, rgb(47, 50, 95), #2f495f);
+        
+      }
+      img {
+        width: 480px;
+        height: 400px;
+        position: absolute;
+        left: 50px;
+        top: -30px;
+        transition: all 1s;
+      }
+      section {
+        
+        background-color: gray;
+        height: 450px;
+        width: 580px;
+        margin: 200px auto 0 auto;
+        position: relative;
+        border-radius: 10px 30px;
+      }
+      section:hover {
+        height: 520px;
+        transition: all 0.5s;
+        padding: 10px;
+
+      }.father{
+        position: absolute;
+        bottom: 0;
+        direction: rtl;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.5s;
+border: 2px solid;
+
+
+      }h1{background-color: white; width: 50%; margin: 0 auto;}
+      
+       p {
+        font-size: 22px;
+        color: white;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        /* line-height: 30px; */
+        padding: 1px;
+
+
+      }section:hover .father{
+        opacity: 1;
+        
+        
+      }section:hover img    {
+        top: -110px; border-radius: 50%;
+        transform: rotate(360deg)  ;
+        transition: all 0.3s;
+
+        
+      }section:hover h1{
+        text-shadow: 2px 2px 5px royalblue;
+        padding: 2px;
+        transform: scale(1.4 , 1.6);
+        transition: all 2s;
+
+
+    
+        font-size: 30px;
+      }h1:hover{
+        color: green;
+      }.page{
+        border: 3px solid;
+        display: grid;
+grid-template-columns:  1fr 1fr;
+grid-template-rows: 621px;
+height: 2000px;
+      }.main-list{
+        padding: 5px;
+      }
+    
+    
+      
+      </style>
+  </head>
+  <body>
+   <div class="page"> 
+    <section>
+      <img
+        src="https://i.pinimg.com/originals/81/7d/b1/817db1ed34361abb09b23f09ec77b047.jpg"
+      />
+      <div class="father" >
+        
+        <h1>Boardwalk Empire</h1>
+        <p dir="rtl">
+          تدور أحداث المسلسل خلال العام 1920 في مدينة اتلانتيك سيتي، حيث انه قد
+          بدأ تطبيق حظر بيع وشراء الخمور في المدينة، تتمحور القصة حول ناكي
+          تومبسون الحاكم الغير متوج للمدينة ومعروف عنه تعامله مع العصابات وبنفس
+          الوقت مع السياسين (نصف سياسي ونصف رجل عصابة) وترتكز القصة على حرب
+          العصابات فيما بينهم ومن ناحية اخرى حربهم مع قوات الشرطة بسبب عمليات
+          تهريب الخمور والأمور المخالفة للقانون.
+        </p>
+    </div>  
+    </section>
+    <section>
+        <img src="https://cdn.arageek.com/magazine//dao-dien-pacific-rim-chuan-bi-chuyen-the-manga-monster-thanh-liveaction.jpg" />
+        <div class="father"> 
+      <div class="father2">       
+      <h1>Monster</h1>
+      <p dir="rtl"> قصة الأنمي: أنمى "Monster الوحش" أحد أفضل الأنميات على الاطلاق ويتحدث عن طبيب ياباني يعمل باحدي المستشفيات بالمانيا ذات يوم تأتيه امرأة فقيرة تطلب منه اجراء جراحة عائلة لزوجها ولكنه يضطر لاجراء عملية اخري لاحدي الشخصيات الهامة رغما عن ارادته ونتيجة ذلك يموت زوج المرأة الفقير ومن هنا تنقلب حياته ...</p>
+    </div> 
+    </section>
+    <section>
+      
+      <img src="https://cdn.mos.cms.futurecdn.net/64BUvGxHtgiFWhB2TeYfbA.jpg" />
+      <div class="father"> 
+      <h1> Dexter </h1>
+      <p>يتمحور المُسلسل حول شخصية ديكستر مورغان (مايكل ك. هول) فني المختبر ومحلل لطخات الدم في مركز شرطة ميامي حيث يكون في النهار فني المختبر وفي الخفاء قاتل متسلسل محترف يقوم بقتلِ المُجرمين الفارّين من العدالة.</p></div>
+    </section>
+</div>
+
+  </body>
+</html>

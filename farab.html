@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="farab.css"> -->
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 600px)"/>
+    <!-- <script defer src="learn.js"> </script> -->
+    <script>  function myFunction() {
+      // window.alert("Hello " )
+      document.getElementById("myh1").setAttribute("class", "demo"); 
+      document.getElementById("myh2").setAttribute("id" , "Hi" )
+      document.getElementById("quiz").setAttribute("id" , "quizjs")
+      document.getElementById("bhide").setAttribute("id" , "btt")
+      document.getElementById("h1anime").setAttribute("id" , "h1move")
+      document.getElementById("hideme").setAttribute("id" , "hidemejs")
+      document.getElementById("footer").setAttribute("id" , "footerjs")
+    
+      
+    };
+    </script>
+    <style> 
+    html {
+  box-sizing: border-box;
+  background-color: rgba(136, 136, 136, 0.822);
+  background: #536976; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #292e49,
+    #536976
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #292e49,
+    #536976
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* Header */
+
+.hide-when-mobile {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  border: 12px outset gray;
+}
+@keyframes move {
+  0% {
+    transform: scale(1, 1);
+    border-radius: 12px;
+  }
+  25% {
+    transform: scale(1.1, 1.2);
+    border-radius: 24px;
+  }
+  50% {
+    transform: scale(1.5, 1.4);
+    border-radius: 50%;
+  }
+  100% {
+    transform: scale(1.1, 1);
+    border-radius: 0;
+  }
+
+  /* ul */
+}
+.flex {
+  display: flex;
+  /* li */
+}
+.main-list {
+  padding: 20px;
+  position: relative;
+}
+h1 {
+  text-align: center;
+  color: #ffffff;
+  background: #333333d8;
+  text-shadow: 0 -1px 4px #fff, 0 -2px 10px rgba(37, 92, 124, 0.151),
+    0 -10px 20px #ff8000, 0 -18px 40px #f00;
+  padding: 20px;
+  font-size: 43px;
+  letter-spacing: 8px;
+}
+.main-link {
+  padding: 15px 15px;
+}
+.main-link:hover {
+  color: cyan;
+  box-shadow: cyan 0 0 8px;
+}
+.sub-ul {
+  position: absolute;
+  top: 75px;
+  border-radius: 5px;
+  background-color: royalblue;
+  border-top: solid 2px white;
+  left: -5px;
+  padding: 8px;
+  display: none;
+}
+.sub-ul li {
+  padding: 8px 6px;
+  font-size: 18px;
+  border-bottom: white 1px solid;
+}
+.sub-ul li a:hover {
+  color: black;
+}
+.main-list:hover .sub-ul {
+  display: block;
+}
+li,
+a {
+  font-size: 19px;
+  letter-spacing: 3px;
+}
+img {
+  width: 10vw;
+  height: 10vh;
+  padding: 10px;
+  animation: move 20s infinite linear;
+  
+}
+.show-when-mobile {
+  display: none;
+}
+.demo {
+  font-size: 313px;
+  color: red;
+}
+.demo::after {
+  content: "Are you ready Human?";
+  font: 30px sans-serif;
+  color: aqua;
+  position: relative;
+  bottom: 122px;
+}
+button {
+  display: block;
+  width: 16vw;
+  margin-right: auto;
+  margin-left: auto;
+  color: royalblue;
+  height: 50px;
+  font: 1.7em sans-serif;
+}
+button:hover {
+  transition: 0.2s;
+  transform: scale(1, 1.2);
+  border-radius: 20px;
+  opacity: 0.8;
+  color: red;
+  background-color: palegreen;
+}
+#Hi {
+  background-color: rgba(255, 255, 255, 0.233);
+  border: #536976 2px solid;
+  text-align: center;
+  text-decoration: underline;
+  display: block;
+  width: 15%;
+  padding: 11px;
+  margin: 0 auto;
+  border-radius: 34px;
+  position: relative;
+  bottom: 160px;
+  left: 155px;
+}
+#myh2 {
+  display: none;
+}
+#st {
+  color: yellowgreen;
+  font: 1.3em sans-serif;
+}
+#st:hover,
+#Hi:hover {
+  background-color: rgba(255, 0, 0, 0.726);
+  text-decoration: none;
+  color: white;
+}
+#quiz {
+  border: 2px solid;
+  border-radius: 110px;
+  display: none;
+}
+#quizjs {
+  display: block;
+  position: relative;
+  bottom: 221px;
+  left: 1310px;
+  transform: rotate(31deg);
+}
+#btt {
+  display: none;
+}#an{
+position: fixed;
+left: 10%;
+bottom: 510px;
+width: 27%;
+height: 10%;
+}
+#h1move{
+animation: rkh 6.7s infinite  ;
+
+color: red;
+background-color: aquamarine;
+position: absolute;
+top: 0;
+left: 50%;
+border-radius: 50%;
+padding: 22px;
+opacity: 0.8;
+}
+#h1move::after{
+content: "Hello YOOu";
+overflow: 4;
+}footer{
+  width: 10%;
+}
+
+@keyframes rkh {
+  0% {
+    transform:translate(0  , 12px);
+    opacity: 0.7;
+  }
+  25% {
+    transform:translate(0  , 120px);
+    opacity: 1;
+  }
+  50% {
+    transform:translate(110px  , 312px);
+    opacity: 1;
+  }
+  100% {
+    transform:translate(380px  , 800px);
+    opacity: 0;
+  }
+}#h1anime{
+  display: none;
+  background-color:#536976;
+  width: 50%;
+  margin: auto auto;
+}#demoo{
+ text-align: center;
+  width: 20%;
+  margin:  0 auto;
+  padding: 19px 1px;
+  border-radius: 44px;
+  color: aquamarine;
+}#hideme{display: none;}
+#hidemejs{
+  display: block;
+}
+#demotwo{ font-size: 20px; background-color: red;}
+#edit{
+  position: absolute;
+  left: 140px;
+  background-color: gold;
+  padding: 10px;
+  color: red;
+}.editt{
+  color: #292e49;
+  background-color: silver;
+  font-size: 30px;
+}#show{
+position: relative;
+left: 680px;
+font-size: 50px;
+background-color: black;
+color:  aqua  ;
+padding: 52px;
+margin: 10px;
+animation: move 20s infinite;
+
+  
+}#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  padding: 0;
+  animation: infinite 0s move;
+  
+}#footerjs{
+  display: none;
+}#imggg{
+  position: absolute;
+  width: 10%;
+  margin-left: 20%;
+  
+  bottom: 0;
+  border-radius: 20px 10px 20px 10px;
+  animation: 0s infinite move;
+}#imgggg{
+  position: absolute;
+  width: 10%;
+  margin-left: 80%;
+  
+  bottom: 0;
+  border-radius: 20px 10px 20px 10px;
+  animation: 0s infinite move;
+}
+    </style>
+</head>
+<body>
+    <header class="hide-when-mobile">
+        <img src="https://cdn.pixabay.com/photo/2016/12/26/18/33/logo-1932539__340.png" alt="">
+<h1 id="myh1"> T7DE       <span>  &#127941; </span> </h1>
+<ul class="flex">
+    <li  class="main-list">  <a  class="main-link" href="GLD.HTML"> Art  </a> 
+    <ul class="sub-ul">
+        <li> <a href="index.html">  Series</a>  </li>
+        <li> <a href="#"> Anime </a>  </li>
+        <li> <a href="#"> Movie </a>  </li>
+    </ul>
+    
+    
+    
+    </li>
+
+
+
+
+    <li  class="main-list" id="main">  <a class="main-link"  href="index.html"> CSS  </a>
+        <ul class="sub-ul">
+            <li> <a href="grid.html">  CSS</a>  </li>
+            <li> <a href="https://css.gg/"> ICON CSS </a>  </li>
+            <li> <a href="https://www.w3schools.com/charsets/ref_emoji.asp"> Emoji CSS </a>  </li>
+        </ul>
+    
+    </li>
+    <li class="main-list">  <a class="main-link"  href="nav.html"> Quiz  </a>
+ <ul class="sub-ul"> 
+    <li> <a href="grid.html">  Movie </a>  </li>
+    <li> <a href="https://css.gg/"> Games </a>  </li>
+    <li> <a href="https://www.w3schools.com/charsets/ref_emoji.asp">Sports <i class="fa-regular fa-futbol" ></i> </a>  </li>
+</ul>
+
+
+ </ul>   
+    
+    
+    
+    </li>
+</ul>
+
+    </header>
+
+
+    <header class="show-when-mobile">
+<h1>T7DE  </h1>
+<label for="hum">  <i class="fa-solid fa-bars"></i>
+</label>
+<input id="hum" type="checkbox">
+
+<div class="show-when-click"> 
+ <div class="main-div"> <label for="art"  > 
+    ART
+ </label>  
+ <input id="art"  type="checkbox">  
+    <ul class="sub-div">
+        <li> <a href="index.html">  Series</a>  </li>
+        <li> <a href="#"> Anime </a>  </li>
+        <li> <a href="#"> Movie </a>  </li>
+    </ul>
+
+
+ </div>
+ <div class="main-div">  <label for="css"> css</label>
+<input type="checkbox" id="css">
+
+<ul class="sub-div">
+    <li> <a href="grid.html">  CSS</a>  </li>
+    <li> <a href="https://css.gg/"> ICON CSS </a>  </li>
+    <li> <a href="https://www.w3schools.com/charsets/ref_emoji.asp"> Emoji CSS </a>  </li>
+</ul>
+
+</div>
+ <div class="main-div">    Javadcript  </div>
+
+
+
+
+</div>
+
+
+    </header>
+<hr color="black">
+<br> <br>
+    <button id="bhide" onclick="myFunction()"> Start The Game </button>
+
+    
+<h2 id="myh2" > <a href="nav.html" id="st" > START &#128293;  </a> </h2>
+<img id="quiz" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5HnUJBYCD1oFyZhKPU7AVszJs52qhbHomVA&usqp=CAU" alt="Quiz ">
+<br >
+<h1 id="h1anime"></h1>
+<h2 id="demoo">  منور </h2>
+
+<script>
+    const myTimeout = setTimeout(myGreeting, 2000);
+    
+    function myGreeting() {
+      document.getElementById("demoo").innerHTML = "Hello and Welcome!"
+    }
+    // window.alert("Hello " )
+
+
+    function showName(e){
+    var firstName= document.getElementById("firstname").value;
+    var lastName = document.getElementById("lastname").value;
+    document.getElementById("show").innerText = firstName+" "+lastName ;        
+}
+    </script>
+
+
+
+<form>
+  First name:
+  <input type= "text" id="firstname" name="firstname" class="editt"> <br> <br>
+  Last name: <input type= "text" id="lastname" name="lastname" class="editt"> <br> <br> <br>
+  <input type = "button" onclick="showName()" value="submit" id="edit">
+  <span id="show"> </span>
+</form>
+
+<footer>
+<img src="https://heritageroyalrajasthan.com/wp-content/uploads/2018/12/footer-background.jpg"  id="footer">
+<img src="https://cdn.pixabay.com/photo/2016/12/26/18/33/logo-1932539__340.png"  id="imggg">
+<img src="https://cdn.dribbble.com/users/2594111/screenshots/17902714/media/3d6fc4a3d1359f607f4876367d6709eb.jpg?compress=1&resize=400x300&vertical=top"  id="imgggg">
+
+</footer>
+</body>
+
+
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art of series and gaming</title>
+    <style> *{font-family:Arial, Helvetica, sans-serif; color: black; font-weight:900; margin: 0; padding: 0;}
+body{ background-color: silver; font-size: 30px; }
+.father{
+    display: flex;
+    justify-content: space-around;
+background: radial-gradient(circle, rgba(32, 50, 139, 0.897) 0%, rgba(146, 44, 64, 0.877) 100%);flex-wrap: wrap;
+row-gap: 120px;
+column-gap: 200px;
+padding: 4px;
+border: 2px black solid; border-radius: 80px;
+height: auto;
+}
+.child{
+    background-color: #f1f1f1;
+  width: 250px;
+  margin: 25px;
+  padding: 55px;
+  text-align: center;
+  text-shadow: 2px 2px  20px red;
+  flex-grow: 1;
+border-radius: 32px;    
+/* box-shadow: 10px 10px  black; */
+height: 305px;
+box-shadow: inset 16px 20px 155px #2d2d2d;
+flex-wrap: wrap;
+
+} .child:hover{
+    transition: 1.5s ;
+    transform: scale(1.1 , 1.1  );
+    
+      /*   transition: 1.5s ;
+    transform: rotate(360deg  ); */
+background-color: rgb(255, 149, 149);
+border: 2px solid black;
+color: #f1f1f1;
+box-shadow: 2px 6px 22px gray;
+font-size:smaller   ;
+}a{text-decoration: none;}
+a:hover{
+    /* font-size: 25px; */
+    color: #f1f1f1;
+    text-shadow: 2px 2px  21px aqua;
+
+
+}
+.child1:hover{
+    background-image: url(https://i.pinimg.com/originals/81/7d/b1/817db1ed34361abb09b23f09ec77b047.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 310px;
+background-position-x: center;
+
+
+}.child4:hover{
+    background-image: url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2020/05/the-office-office-olympics-slice.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+background-position-x: right;
+background-position-y: right;
+
+}.child2:hover{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/64BUvGxHtgiFWhB2TeYfbA.jpg);
+         background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+
+}
+.child3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkk57XWoyUVM4FvtMap1o4lpyuSaZ5I6GM2g&usqp=CAU);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;  
+}
+
+.child3:hover{ 
+    background-image: url(https://m.media-amazon.com/images/M/MV5BYWNlN2U4YjQtMzI3NC00ZjkxLWEwMTItYWRlNDUxYTYwYjVlXkEyXkFqcGdeQWpvaG5oYXJ0._V1_QL75_UX500_CR0,0,500,281_.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;   
+    background-position-x:right ;
+
+    
+}
+.child5{
+    background-image: url(/walter-white-and-jesse-pinkman-from-breaking-bad_2560x1440_xtrafondos.com.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll  ;
+background-position: 50% 50% ;
+    
+    
+    
+
+}.child5:hover{ background-image: url(https://static2.hdwallpapers.net/wallpapers/2015/04/26/720/thumb_breaking-bad-characters.jpg  );
+    transition: 2.5s ;
+    background-attachment: scroll 
+
+}.child6:hover{
+    background-image: url(https://cdn.wallpapersafari.com/92/49/w9hSoF.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-position-x: right;
+    background-position-y: right;
+    background-size: cover;
+    
+
+}.child6{
+
+    background-image: url(https://cdn.wallpapersafari.com/92/49/w9hSoF.png);
+    background-size: cover;
+    background-position: right;
+}
+.child7:hover{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/452/290/449/tv-game-of-thrones-jon-snow-kit-harington-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: center;
+    }
+.child8:hover{
+background-image: url(https://p4.wallpaperbetter.com/wallpaper/956/258/378/sean-bean-iron-throne-sword-game-of-thrones-wallpaper-preview.jpg);  
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: top;
+
+}.child9:hover{
+    background-image: url(https://cdn.arageek.com/magazine//dao-dien-pacific-rim-chuan-bi-chuyen-the-manga-monster-thanh-liveaction.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: top;
+
+}.dark-mode   {
+  background-color: black;
+  color: white;
+  
+}@keyframes mymove{
+10% {transform: translate(330%,0);}
+/* 30% {transform: translate(22px,0);}
+70% {transform: translate(30%,0);}
+100% {transform: translate(4px,0);} */
+
+
+
+
+
+}
+#an{
+animation: mymove 30s infinite;}
+button{
+    background-color: #2d2d2d; color: white;
+    transition: 0.8s; 
+    display: flex;
+     margin:auto auto;margin-bottom: 5px; padding:9px 20px ;
+     letter-spacing: 1px;
+     border-radius: 25px; border: #2d2d2d ; 
+}button:hover{
+    background-color: rgb(197, 172, 172); color: #2d2d2d;    transform: scale(1.1);     transition:0.4s;
+    letter-spacing: 3px; 
+box-shadow: unset 3px 2px 2px aqua;
+
+  }
+
+    </style>    
+</head>
+<body>
+                                  
+    <button onclick="myFunction()"> Dark Mode</button>
+
+    <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+</script>
+    <div class="father">
+<div class="child1 child">     <a href="/boardwalk.mp3" target="_blank"> Boardwalk empire </a>       </div>
+<div class="child2 child">   Dexter       </div>
+<div class="child3 child">        The godfather   </div>
+<div class="child4 child">   The office </div>
+<div class="child5 child">    Breaking bad </div>
+<div class="child6 child">    Hinnbal</div>   
+<div class="child7 child">    GOT</div>
+<div class="child8 child">    Honor </div>
+<div class="child9 child"> Monster </div>
+<!-- <h2 id="an"> <a href="/images/walter-white-and-jesse-pinkman-from-breaking-bad_2560x1440_xtrafondos.com.jpg"> Click me Random</h2></a> -->
+<div class="child10 child">  </div>
+<div class="child11 child">    wonor </div>
+<div class="child12 child"> Hello </div>
+
+    </div>
+<button class="loadmore"> Load more </button>
+
+<h1>ar7bo</h1>
+</body>
+</html>     
